@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApiManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ApiManagement.yoezjg12se.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApiManagement.props",
+      "PackagePath": "build\\ApiManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiManagement.props",
+      "PackagePath": "buildMultiTargeting\\ApiManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApiManagement.props",
+      "PackagePath": "buildTransitive\\ApiManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

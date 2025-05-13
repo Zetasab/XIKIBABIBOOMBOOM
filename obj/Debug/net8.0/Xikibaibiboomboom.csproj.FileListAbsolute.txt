@@ -1,0 +1,4 @@
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\obj\Debug\net8.0\Xikibaibiboomboom.GeneratedMSBuildEditorConfig.editorconfig
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\obj\Debug\net8.0\Xikibaibiboomboom.AssemblyInfoInputs.cache
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\obj\Debug\net8.0\Xikibaibiboomboom.AssemblyInfo.cs
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\obj\Debug\net8.0\Xikibaibiboomboom.csproj.CoreCompileInputs.cache
