@@ -1026,8 +1026,6 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vsi1uwwr2x-tptq2av103.gz
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\exhloj2lxi-lfu7j35m59.gz
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\wcev9fwujc-oyz0vx2fzb.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\pw4hsfp5mg-s6illhii48.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\dqvtq714b6-8o2t2u9dri.gz
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.build.json
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.development.json
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.build.endpoints.json
@@ -1037,13 +1035,14 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.FeManagement.props
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.FeManagement.props
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.pack.json
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\FeManage.F77282C6.Up2Date
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\FeManagement.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\refint\FeManagement.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\FeManagement.pdb
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\ref\FeManagement.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\FeManagement.sourcelink.json
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\jy8mqa8cjl-mlohhdksa5.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\5bqrx98z3q-bxumco5cj4.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vrggntvhv9-zm4uj6hp76.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\pw4hsfp5mg-cz766jhe73.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\dqvtq714b6-gvi1l8kbys.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\jy8mqa8cjl-4j0d3rqvd1.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\5bqrx98z3q-7tsdrxo9r7.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vrggntvhv9-5z5g4o49c5.gz

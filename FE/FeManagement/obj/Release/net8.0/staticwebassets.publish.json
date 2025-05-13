@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jLi9xyaqUTyAJswJFrghW5gxP/0SeefnIvrCWjr0/tQ=",
+  "Hash": "qiaY5R+tOEopGcBUDab3YFjV+3MUAvNuZIMacSLPZt0=",
   "Source": "FeManagement",
   "BasePath": "/",
   "Mode": "Root",
@@ -41,7 +41,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.js",
       "AssetKind": "Publish",
@@ -62,7 +62,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.runtime.js",
       "AssetKind": "Publish",
@@ -83,7 +83,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_CJK.dat",
       "AssetKind": "Publish",
@@ -104,7 +104,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_EFIGS.dat",
       "AssetKind": "Publish",
@@ -125,7 +125,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_no_CJK.dat",
       "AssetKind": "Publish",
@@ -146,7 +146,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\blazor.publish.boot.json",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/blazor.boot.json",
       "AssetKind": "Publish",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "1kulbvtrrx",
-      "Integrity": "8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg=",
+      "Fingerprint": "gi92zwzvkn",
+      "Integrity": "qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "obj\\Release\\net8.0\\blazor.publish.boot.json"
@@ -167,7 +167,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\82ruzgaxlh-zsg7ig48qt.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.js.gz",
       "AssetKind": "Publish",
@@ -584,7 +584,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-mlohhdksa5.br",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-4j0d3rqvd1.br",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -598,14 +598,14 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\FeManagement.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "m5gpvkda5l",
-      "Integrity": "9kKz8MzDzBbAXPxD9nSa4pEZx2cNGyarRwAXKk8t7v0=",
+      "Fingerprint": "wn93ckp8ro",
+      "Integrity": "rD8AIorj8bZDaQqBVqlErQrUpB6XGamhvT0bOgyLg0s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\FeManagement.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-mlohhdksa5.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-4j0d3rqvd1.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -619,14 +619,14 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\FeManagement.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "omtbskoy9k",
-      "Integrity": "wNZx3TGFktlouDiuwsqbei1O3KQOB1GxOWNQJY/Qn7A=",
+      "Fingerprint": "wwksu9ovxv",
+      "Integrity": "4DoFCx5tGG4NOihTgLAwTS/hVEizSkyDsAbqMs6F/94=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\FeManagement.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-s6illhii48.br",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-cz766jhe73.br",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -640,14 +640,14 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Common.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "c1o972wdki",
-      "Integrity": "8NCmvb7nCs9N7lXuATsTQ5QwmtmHG81ug6SWg8az1JQ=",
+      "Fingerprint": "fds5ao228i",
+      "Integrity": "42huDSHSAH0zeAqry3mD7ptkc60uEIVq+cAyMFvna/8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Common.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-s6illhii48.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-cz766jhe73.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -661,8 +661,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Common.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "l3uzkim2jv",
-      "Integrity": "34AvO423zMSqCW9B1/WZlBTgrNylZe6tY5+Jd6oot5s=",
+      "Fingerprint": "32l51vdrg8",
+      "Integrity": "JfljX3X+kxfSIs0zaYoQxnToUbkkYrmQIy97+3f2Ctw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Common.wasm"
@@ -1067,7 +1067,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Configuration.Abstractions.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-1kulbvtrrx.br",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-gi92zwzvkn.br",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -1081,14 +1081,14 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "wmzs1nwn1v",
-      "Integrity": "aMDJMIvVv51cfSr5ZKe2FWX5UScjTVWNEzPvW/50Z9I=",
+      "Fingerprint": "5pbj0g73nx",
+      "Integrity": "+THXeMVnrswXAD1Ib1jX4zdAD0YevwHD+XM1XJjkqqE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\blazor.publish.boot.json"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-1kulbvtrrx.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-gi92zwzvkn.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s0fxg7jmix",
-      "Integrity": "TAY6AKeLhDcrZs9iFp7KfPhzQ2JYgduo4CvRMslmnko=",
+      "Fingerprint": "60fkvpmns4",
+      "Integrity": "CtSt2jLZuMSjrekrg6GY+yhTXAKJHM9MGHaBwDpDiGk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\blazor.publish.boot.json"
@@ -1910,7 +1910,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\zwhm39p7gc-c4xdz68y56.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.runtime.js.gz",
       "AssetKind": "Publish",
@@ -1973,7 +1973,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\wasm\\for-publish\\dotnet.native.js",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native.js",
       "AssetKind": "Publish",
@@ -1994,7 +1994,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\wasm\\for-publish\\dotnet.native.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native.wasm",
       "AssetKind": "Publish",
@@ -2015,7 +2015,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Common.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Common.wasm",
       "AssetKind": "Publish",
@@ -2026,8 +2026,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "s6illhii48",
-      "Integrity": "rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0=",
+      "Fingerprint": "cz766jhe73",
+      "Integrity": "GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Common.wasm"
@@ -2036,7 +2036,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\FeManagement.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/FeManagement.wasm",
       "AssetKind": "Publish",
@@ -2047,8 +2047,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "mlohhdksa5",
-      "Integrity": "NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w=",
+      "Fingerprint": "4j0d3rqvd1",
+      "Integrity": "EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\FeManagement.wasm"
@@ -2057,7 +2057,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.AspNetCore.Components.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.wasm",
       "AssetKind": "Publish",
@@ -2078,7 +2078,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.AspNetCore.Components.Web.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.wasm",
       "AssetKind": "Publish",
@@ -2099,7 +2099,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "AssetKind": "Publish",
@@ -2120,7 +2120,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Configuration.Abstractions.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions.wasm",
       "AssetKind": "Publish",
@@ -2141,7 +2141,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Configuration.Json.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.Json.wasm",
       "AssetKind": "Publish",
@@ -2162,7 +2162,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Configuration.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.wasm",
       "AssetKind": "Publish",
@@ -2183,7 +2183,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
       "AssetKind": "Publish",
@@ -2204,7 +2204,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.DependencyInjection.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.wasm",
       "AssetKind": "Publish",
@@ -2225,7 +2225,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Logging.Abstractions.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.wasm",
       "AssetKind": "Publish",
@@ -2246,7 +2246,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Logging.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Logging.wasm",
       "AssetKind": "Publish",
@@ -2267,7 +2267,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Options.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Options.wasm",
       "AssetKind": "Publish",
@@ -2288,7 +2288,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.Extensions.Primitives.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Primitives.wasm",
       "AssetKind": "Publish",
@@ -2309,7 +2309,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.JSInterop.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.JSInterop.wasm",
       "AssetKind": "Publish",
@@ -2330,7 +2330,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\Microsoft.JSInterop.WebAssembly.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.wasm",
       "AssetKind": "Publish",
@@ -2351,7 +2351,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Collections.Concurrent.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.Concurrent.wasm",
       "AssetKind": "Publish",
@@ -2372,7 +2372,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Collections.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.wasm",
       "AssetKind": "Publish",
@@ -2393,7 +2393,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.ComponentModel.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel.wasm",
       "AssetKind": "Publish",
@@ -2414,7 +2414,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Console.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Console.wasm",
       "AssetKind": "Publish",
@@ -2435,7 +2435,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Diagnostics.DiagnosticSource.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Diagnostics.DiagnosticSource.wasm",
       "AssetKind": "Publish",
@@ -2456,7 +2456,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Linq.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Linq.wasm",
       "AssetKind": "Publish",
@@ -2477,7 +2477,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Memory.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Memory.wasm",
       "AssetKind": "Publish",
@@ -2498,7 +2498,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Net.Http.Json.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Http.Json.wasm",
       "AssetKind": "Publish",
@@ -2519,7 +2519,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Net.Http.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Http.wasm",
       "AssetKind": "Publish",
@@ -2540,7 +2540,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Net.Primitives.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Primitives.wasm",
       "AssetKind": "Publish",
@@ -2561,7 +2561,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Private.CoreLib.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Private.CoreLib.wasm",
       "AssetKind": "Publish",
@@ -2582,7 +2582,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Private.Uri.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Private.Uri.wasm",
       "AssetKind": "Publish",
@@ -2603,7 +2603,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Runtime.InteropServices.JavaScript.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime.InteropServices.JavaScript.wasm",
       "AssetKind": "Publish",
@@ -2624,7 +2624,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Runtime.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime.wasm",
       "AssetKind": "Publish",
@@ -2645,7 +2645,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Text.Encodings.Web.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.Encodings.Web.wasm",
       "AssetKind": "Publish",
@@ -2666,7 +2666,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Text.Json.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.Json.wasm",
       "AssetKind": "Publish",
@@ -2687,7 +2687,7 @@
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\webcil\\publish\\System.Text.RegularExpressions.wasm",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Release\\net8.0\\publish\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.RegularExpressions.wasm",
       "AssetKind": "Publish",
@@ -2893,11 +2893,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg=\""
+          "Value": "\"qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2907,18 +2907,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg="
+          "Value": "sha256-qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-1kulbvtrrx.br",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-gi92zwzvkn.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000538502962"
+          "Quality": "0.000538213132"
         }
       ],
       "ResponseHeaders": [
@@ -2928,15 +2928,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1856"
+          "Value": "1857"
         },
         {
           "Name": "ETag",
-          "Value": "\"aMDJMIvVv51cfSr5ZKe2FWX5UScjTVWNEzPvW/50Z9I=\""
+          "Value": "\"+THXeMVnrswXAD1Ib1jX4zdAD0YevwHD+XM1XJjkqqE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2956,24 +2956,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg=\""
+          "Value": "W/\"qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg="
+          "Value": "sha256-qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-1kulbvtrrx.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-gi92zwzvkn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000496031746"
+          "Quality": "0.000496770989"
         }
       ],
       "ResponseHeaders": [
@@ -2983,15 +2983,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2015"
+          "Value": "2012"
         },
         {
           "Name": "ETag",
-          "Value": "\"TAY6AKeLhDcrZs9iFp7KfPhzQ2JYgduo4CvRMslmnko=\""
+          "Value": "\"CtSt2jLZuMSjrekrg6GY+yhTXAKJHM9MGHaBwDpDiGk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3011,19 +3011,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg=\""
+          "Value": "W/\"qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8eT3dE77t8VirbFP+wQeghu9WaQ3iRFRPcs4UD+yTRg="
+          "Value": "sha256-qA+ww4cu2wkT2m1L1nNs0aMMfvqcGtl6IU9e21lgOd8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.br",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-1kulbvtrrx.br",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-gi92zwzvkn.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3032,7 +3032,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1856"
+          "Value": "1857"
         },
         {
           "Name": "Content-Type",
@@ -3040,11 +3040,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aMDJMIvVv51cfSr5ZKe2FWX5UScjTVWNEzPvW/50Z9I=\""
+          "Value": "\"+THXeMVnrswXAD1Ib1jX4zdAD0YevwHD+XM1XJjkqqE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3062,13 +3062,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aMDJMIvVv51cfSr5ZKe2FWX5UScjTVWNEzPvW/50Z9I="
+          "Value": "sha256-+THXeMVnrswXAD1Ib1jX4zdAD0YevwHD+XM1XJjkqqE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-1kulbvtrrx.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\i71zlpk47o-gi92zwzvkn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3077,7 +3077,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2015"
+          "Value": "2012"
         },
         {
           "Name": "Content-Type",
@@ -3085,11 +3085,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TAY6AKeLhDcrZs9iFp7KfPhzQ2JYgduo4CvRMslmnko=\""
+          "Value": "\"CtSt2jLZuMSjrekrg6GY+yhTXAKJHM9MGHaBwDpDiGk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3107,7 +3107,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TAY6AKeLhDcrZs9iFp7KfPhzQ2JYgduo4CvRMslmnko="
+          "Value": "sha256-CtSt2jLZuMSjrekrg6GY+yhTXAKJHM9MGHaBwDpDiGk="
         }
       ]
     },
@@ -3350,12 +3350,12 @@
     },
     {
       "Route": "_framework/Common.wasm",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-s6illhii48.br",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-cz766jhe73.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000660501982"
+          "Quality": "0.000660938533"
         }
       ],
       "ResponseHeaders": [
@@ -3365,15 +3365,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1513"
+          "Value": "1512"
         },
         {
           "Name": "ETag",
-          "Value": "\"8NCmvb7nCs9N7lXuATsTQ5QwmtmHG81ug6SWg8az1JQ=\""
+          "Value": "\"42huDSHSAH0zeAqry3mD7ptkc60uEIVq+cAyMFvna/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 15:59:11 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3393,24 +3393,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0=\""
+          "Value": "W/\"GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0="
+          "Value": "sha256-GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM="
         }
       ]
     },
     {
       "Route": "_framework/Common.wasm",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-s6illhii48.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-cz766jhe73.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000585823081"
+          "Quality": "0.000576368876"
         }
       ],
       "ResponseHeaders": [
@@ -3420,15 +3420,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1706"
+          "Value": "1734"
         },
         {
           "Name": "ETag",
-          "Value": "\"34AvO423zMSqCW9B1/WZlBTgrNylZe6tY5+Jd6oot5s=\""
+          "Value": "\"JfljX3X+kxfSIs0zaYoQxnToUbkkYrmQIy97+3f2Ctw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 15:59:11 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3448,13 +3448,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0=\""
+          "Value": "W/\"GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0="
+          "Value": "sha256-GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM="
         }
       ]
     },
@@ -3477,11 +3477,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0=\""
+          "Value": "\"GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 15:59:11 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3491,13 +3491,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rPf9NB5lyu+HihQkZd10XUwWsN2UHGgsrhVRrZboDC0="
+          "Value": "sha256-GBC9fugl9e+Wju56fFCDzn6SXbXCs7uI87rXySDWoTM="
         }
       ]
     },
     {
       "Route": "_framework/Common.wasm.br",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-s6illhii48.br",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-cz766jhe73.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3506,7 +3506,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1513"
+          "Value": "1512"
         },
         {
           "Name": "Content-Type",
@@ -3514,11 +3514,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8NCmvb7nCs9N7lXuATsTQ5QwmtmHG81ug6SWg8az1JQ=\""
+          "Value": "\"42huDSHSAH0zeAqry3mD7ptkc60uEIVq+cAyMFvna/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 15:59:11 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3536,13 +3536,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8NCmvb7nCs9N7lXuATsTQ5QwmtmHG81ug6SWg8az1JQ="
+          "Value": "sha256-42huDSHSAH0zeAqry3mD7ptkc60uEIVq+cAyMFvna/8="
         }
       ]
     },
     {
       "Route": "_framework/Common.wasm.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-s6illhii48.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5jh9jzjk9r-cz766jhe73.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3551,7 +3551,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1706"
+          "Value": "1734"
         },
         {
           "Name": "Content-Type",
@@ -3559,11 +3559,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"34AvO423zMSqCW9B1/WZlBTgrNylZe6tY5+Jd6oot5s=\""
+          "Value": "\"JfljX3X+kxfSIs0zaYoQxnToUbkkYrmQIy97+3f2Ctw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 15:59:11 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3581,7 +3581,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-34AvO423zMSqCW9B1/WZlBTgrNylZe6tY5+Jd6oot5s="
+          "Value": "sha256-JfljX3X+kxfSIs0zaYoQxnToUbkkYrmQIy97+3f2Ctw="
         }
       ]
     },
@@ -4535,12 +4535,12 @@
     },
     {
       "Route": "_framework/FeManagement.wasm",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-mlohhdksa5.br",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-4j0d3rqvd1.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000165207335"
+          "Quality": "0.000165453342"
         }
       ],
       "ResponseHeaders": [
@@ -4550,15 +4550,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6052"
+          "Value": "6043"
         },
         {
           "Name": "ETag",
-          "Value": "\"9kKz8MzDzBbAXPxD9nSa4pEZx2cNGyarRwAXKk8t7v0=\""
+          "Value": "\"rD8AIorj8bZDaQqBVqlErQrUpB6XGamhvT0bOgyLg0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4578,24 +4578,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w=\""
+          "Value": "W/\"EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w="
+          "Value": "sha256-EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.wasm",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-mlohhdksa5.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-4j0d3rqvd1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000148610492"
+          "Quality": "0.000146134736"
         }
       ],
       "ResponseHeaders": [
@@ -4605,15 +4605,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6728"
+          "Value": "6842"
         },
         {
           "Name": "ETag",
-          "Value": "\"wNZx3TGFktlouDiuwsqbei1O3KQOB1GxOWNQJY/Qn7A=\""
+          "Value": "\"4DoFCx5tGG4NOihTgLAwTS/hVEizSkyDsAbqMs6F/94=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4633,13 +4633,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w=\""
+          "Value": "W/\"EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w="
+          "Value": "sha256-EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM="
         }
       ]
     },
@@ -4662,11 +4662,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w=\""
+          "Value": "\"EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4676,13 +4676,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NiQ7bjRz0ieKCKlAJYRrqfaEUKYQyxPPcrCw+tj0V6w="
+          "Value": "sha256-EC24a5S7phuzvCaQPBiegXnfU4ZDtkGZGToyqqE2ReM="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.wasm.br",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-mlohhdksa5.br",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-4j0d3rqvd1.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4691,7 +4691,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6052"
+          "Value": "6043"
         },
         {
           "Name": "Content-Type",
@@ -4699,11 +4699,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9kKz8MzDzBbAXPxD9nSa4pEZx2cNGyarRwAXKk8t7v0=\""
+          "Value": "\"rD8AIorj8bZDaQqBVqlErQrUpB6XGamhvT0bOgyLg0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4721,13 +4721,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9kKz8MzDzBbAXPxD9nSa4pEZx2cNGyarRwAXKk8t7v0="
+          "Value": "sha256-rD8AIorj8bZDaQqBVqlErQrUpB6XGamhvT0bOgyLg0s="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.wasm.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-mlohhdksa5.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Release\\net8.0\\compressed\\publish\\5anxdrj48r-4j0d3rqvd1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4736,7 +4736,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6728"
+          "Value": "6842"
         },
         {
           "Name": "Content-Type",
@@ -4744,11 +4744,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wNZx3TGFktlouDiuwsqbei1O3KQOB1GxOWNQJY/Qn7A=\""
+          "Value": "\"4DoFCx5tGG4NOihTgLAwTS/hVEizSkyDsAbqMs6F/94=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 16:32:14 GMT"
+          "Value": "Tue, 13 May 2025 16:42:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4766,7 +4766,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wNZx3TGFktlouDiuwsqbei1O3KQOB1GxOWNQJY/Qn7A="
+          "Value": "sha256-4DoFCx5tGG4NOihTgLAwTS/hVEizSkyDsAbqMs6F/94="
         }
       ]
     },
