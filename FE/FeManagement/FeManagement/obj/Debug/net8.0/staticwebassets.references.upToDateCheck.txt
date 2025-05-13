@@ -1,1 +1,0 @@
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\FeManagement.Client\obj\Debug\net8.0\staticwebassets.build.json

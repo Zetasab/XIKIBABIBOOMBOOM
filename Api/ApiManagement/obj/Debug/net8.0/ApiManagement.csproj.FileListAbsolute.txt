@@ -31,3 +31,7 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\obj\Debug\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\obj\Debug\net8.0\ApiManagement.pdb
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\obj\Debug\net8.0\ApiManagement.genruntimeconfig.cache
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\obj\Debug\net8.0\ref\ApiManagement.dll
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\bin\Debug\net8.0\Common.dll
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\bin\Debug\net8.0\Common.pdb
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\obj\Debug\net8.0\ApiManagement.csproj.AssemblyReference.cache
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\Api\ApiManagement\obj\Debug\net8.0\ApiManag.A4B906AC.Up2Date
