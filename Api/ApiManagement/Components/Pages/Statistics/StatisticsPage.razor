@@ -1,0 +1,24 @@
+﻿@page "/statistics"
+
+<h3>Statistics</h3>
+
+<MudDialog @bind-Visible="InsertModal">
+    <DialogContent>
+        <MudForm Model="InsertStatistic">
+            <MudTextField @bind-Value="InsertStatistic.Name">
+
+            </MudTextField>
+            <MudButton ButtonType="ButtonType.Submit" >Aceptar</MudButton>
+        </MudForm>
+    </DialogContent>
+</MudDialog>
+
+<MudDataGrid Items="@StatisticsList" T="Common.DataModels.Statistics">
+    <Columns>
+        <PropertyColumn Property="x => x.Name" Title="Nombre" />
+        <PropertyColumn Property="x => x.Description" Title="Descripcion" />
+        <PropertyColumn Property="x => x.StartDate" Title="Fecha de inicio" />
+        
+    </Columns>
+</MudDataGrid>
+
