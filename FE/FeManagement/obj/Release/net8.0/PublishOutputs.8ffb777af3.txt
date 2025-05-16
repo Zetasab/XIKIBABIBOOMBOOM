@@ -1,2 +1,0 @@
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\bin\Release\net8.0\publish\emcc-props.json
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\bin\Release\net8.0\publish\web.config

@@ -9,3 +9,4 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\DLL\Common\Common\obj\Debug\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\DLL\Common\Common\obj\Debug\net8.0\refint\Common.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\DLL\Common\Common\obj\Debug\net8.0\Common.pdb
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\DLL\Common\Common\obj\Debug\net8.0\ref\Common.dll
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\DLL\Common\Common\obj\Debug\net8.0\Common.sourcelink.json

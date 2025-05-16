@@ -1,21 +1,20 @@
 ﻿@page "/"
 
+@inject ISnackbar Snackbar
+
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
-@if (personas is null)
-{
-    <p>Cargando...</p>
-}
-else
-{
-    <ul>
-        @foreach (var persona in personas)
-        {
-            <li>@persona.Key de @persona.Value</li>
-        }
-    </ul>
+<MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="holi" >asd</MudButton>
+
+@code{
+
+	private void holi()
+	{
+		Snackbar.Add("asdasd");
+	}
+					
 }
