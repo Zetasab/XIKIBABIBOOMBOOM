@@ -1057,8 +1057,9 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\refint\FeManagement.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\FeManagement.pdb
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\ref\FeManagement.dll
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\pw4hsfp5mg-b638ivnw6d.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\dqvtq714b6-2hnb29atlk.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\jy8mqa8cjl-ea8o3qlp99.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\5bqrx98z3q-wut8bvbd55.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vrggntvhv9-4vysvi05sr.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\scopedcss\Layout\LogInLayout.razor.rz.scp.css
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\pw4hsfp5mg-reukgtrwlr.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\dqvtq714b6-c3fltgqc4i.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\jy8mqa8cjl-qbskjrvz0x.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\5bqrx98z3q-yzsnkybkf1.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vrggntvhv9-oxde2nto0t.gz
