@@ -10,7 +10,7 @@ namespace FeManagement.Pages
         private List<Statistics> StatisticsList { get; set; } = new List<Statistics>();
         protected override async Task OnInitializedAsync()
         {
-            Db.SetStatisticJsonUrl(Path.Combine("..","db","Statistics.json"));
+            Db.SetStatisticJsonUrl("XIKIBABIBOOMBOOM/db/Statistics.json");
 
             var response = await Db.GetAllStatisticsAsync();
             StatisticsList = response.Data ?? new List<Statistics>();
