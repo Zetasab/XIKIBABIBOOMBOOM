@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PdCkxtIbaRCr6xkde/A8do8MYhKNIXDkZm8N9mIb7Io=",
+  "Hash": "InGewnoSFBFmkp4T1JhCgBqQPbEedJ2AmVe38i0sZc0=",
   "Source": "FeManagement",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "1fcszvhflq",
-      "Integrity": "3dyh91ZcHw9r/+UbIZMwiXvtbj9TQfg/fZezhdh00DY=",
+      "Fingerprint": "dwqw2ilyiu",
+      "Integrity": "0xX7dZFfSv+RtDTKRq3qudpC6Y03vgNVND3WK6DEvG0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "u3xjlkpwbc",
-      "Integrity": "pjy3AruKj1OMO4onbqtpFnfMQjY5iQSh4oi/LR0iGY0=",
+      "Fingerprint": "7dwkk569pt",
+      "Integrity": "20i8GyTVgM01tVt3FiV4+DIjR2qqG7PgYoYrHTycGCA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\DLL\\Common\\Common\\bin\\Debug\\net8.0\\Common.pdb"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "btxpy0leda",
-      "Integrity": "kVZ91B01SeK4HOgzjtZTVp6XaC/InETvpCLX7YtUMRA=",
+      "Fingerprint": "dkw6cqk1bq",
+      "Integrity": "o2EUNQdoKAHBXeLbGAFsB8w1+pDJludYGIxcXfiVqdU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\webcil\\Common.wasm"
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "w0iqsaeg62",
-      "Integrity": "QD4ADLTAvn3R01klfhx8tvyScUKbVkm+6Sf9+5amhwk=",
+      "Fingerprint": "mapqu03sk8",
+      "Integrity": "cu87xV6+4srILbJfu7kqK5MmQPGkSLIxeFBwGONTFlE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\FeManagement.pdb"
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "bfze8ystt0",
-      "Integrity": "KYUexn7MR3OPSHoYKj+BhlRXSPTxhBlXwMBD0SAdz0s=",
+      "Fingerprint": "iszackakko",
+      "Integrity": "ss+n0+50KoBC+pAaOHX+ZMKqAg2MycCY8/TqojVhD8Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\webcil\\FeManagement.wasm"
@@ -5351,7 +5351,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\5bqrx98z3q-w0iqsaeg62.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\5bqrx98z3q-mapqu03sk8.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\",
@@ -5365,8 +5365,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FeManagement.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "znb0agoufe",
-      "Integrity": "8ToJ1ycYJ9/bVK/XskwhJYkm8ges9rnuB36Ljvc094c=",
+      "Fingerprint": "azuqz07j53",
+      "Integrity": "qq1ioLRhVxCHqmaffGYLroYmijiR+wKSU69UV3HTHNQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FeManagement.pdb"
@@ -6254,7 +6254,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Metadata.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\dqvtq714b6-u3xjlkpwbc.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\dqvtq714b6-7dwkk569pt.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\",
@@ -6268,8 +6268,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Common.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i0h682riq1",
-      "Integrity": "XuRzLD6FNCqkzD8ZjGr7GI/nEGxk45PaZCbf7ZTgZ0s=",
+      "Fingerprint": "u4zjm7klz6",
+      "Integrity": "YvXvjArQIiafC1o72I3+yniMgdrpvls5VqpMvMreLzY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Common.pdb"
@@ -6947,7 +6947,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\jy8mqa8cjl-bfze8ystt0.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\jy8mqa8cjl-iszackakko.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\",
@@ -6961,8 +6961,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FeManagement.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qtwfph6p1a",
-      "Integrity": "Em9XsXATOIzsH+NAFz/vM6Jo7iEsDKowGaXvZIV3Ajo=",
+      "Fingerprint": "ycgna7qfgv",
+      "Integrity": "bie7EMIvkDjLX2gOolViGAMI16uSzGn4nO0/FgrG+98=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FeManagement.wasm"
@@ -7787,7 +7787,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\pw4hsfp5mg-btxpy0leda.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\pw4hsfp5mg-dkw6cqk1bq.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\",
@@ -7801,8 +7801,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Common.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "d6vlid3mp2",
-      "Integrity": "6xiRz18cB6DFhQ+waUk0tjtsVkvyqDlzhSRVu/jhMEs=",
+      "Fingerprint": "ldgulsnudn",
+      "Integrity": "lzz3dnvSIWS9ZwVpcr775fgsh1vSzLXSxggtE27rW0Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Common.wasm"
@@ -8417,7 +8417,7 @@
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.wasm"
     },
     {
-      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\vrggntvhv9-1fcszvhflq.gz",
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\vrggntvhv9-dwqw2ilyiu.gz",
       "SourceId": "FeManagement",
       "SourceType": "Computed",
       "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\",
@@ -8431,8 +8431,8 @@
       "RelatedAsset": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4cj20bka11",
-      "Integrity": "nGU4jIkmyZ+wTy+T6Pvhhdo6pXw/yydwkaZ64Ox1ERM=",
+      "Fingerprint": "7l2c8m6k02",
+      "Integrity": "GxhfhPZ+Q3RHf01DU5e/BlA+TrddOqB6VQ3Ki63MaI0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8984,6 +8984,27 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Statistics.json",
+      "SourceId": "FeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "db/Statistics#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0rwt6tt04r",
+      "Integrity": "9Iq3qPFwazb1eAQqk4uGhdpzLohWSoo6+6N1wyCdrvw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\db\\Statistics.json"
+    },
+    {
       "Identity": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\favicon.png",
       "SourceId": "FeManagement",
       "SourceType": "Discovered",
@@ -9252,11 +9273,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3dyh91ZcHw9r/+UbIZMwiXvtbj9TQfg/fZezhdh00DY=\""
+          "Value": "\"0xX7dZFfSv+RtDTKRq3qudpC6Y03vgNVND3WK6DEvG0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:59 GMT"
+          "Value": "Mon, 19 May 2025 15:04:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9266,18 +9287,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3dyh91ZcHw9r/+UbIZMwiXvtbj9TQfg/fZezhdh00DY="
+          "Value": "sha256-0xX7dZFfSv+RtDTKRq3qudpC6Y03vgNVND3WK6DEvG0="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\vrggntvhv9-1fcszvhflq.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\vrggntvhv9-dwqw2ilyiu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000110631707"
+          "Quality": "0.000110619469"
         }
       ],
       "ResponseHeaders": [
@@ -9287,15 +9308,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9038"
+          "Value": "9039"
         },
         {
           "Name": "ETag",
-          "Value": "\"nGU4jIkmyZ+wTy+T6Pvhhdo6pXw/yydwkaZ64Ox1ERM=\""
+          "Value": "\"GxhfhPZ+Q3RHf01DU5e/BlA+TrddOqB6VQ3Ki63MaI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:17 GMT"
+          "Value": "Mon, 19 May 2025 14:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9315,19 +9336,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3dyh91ZcHw9r/+UbIZMwiXvtbj9TQfg/fZezhdh00DY=\""
+          "Value": "W/\"0xX7dZFfSv+RtDTKRq3qudpC6Y03vgNVND3WK6DEvG0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3dyh91ZcHw9r/+UbIZMwiXvtbj9TQfg/fZezhdh00DY="
+          "Value": "sha256-0xX7dZFfSv+RtDTKRq3qudpC6Y03vgNVND3WK6DEvG0="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\vrggntvhv9-1fcszvhflq.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\vrggntvhv9-dwqw2ilyiu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9336,7 +9357,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9038"
+          "Value": "9039"
         },
         {
           "Name": "Content-Type",
@@ -9344,11 +9365,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nGU4jIkmyZ+wTy+T6Pvhhdo6pXw/yydwkaZ64Ox1ERM=\""
+          "Value": "\"GxhfhPZ+Q3RHf01DU5e/BlA+TrddOqB6VQ3Ki63MaI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:17 GMT"
+          "Value": "Mon, 19 May 2025 14:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9366,7 +9387,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nGU4jIkmyZ+wTy+T6Pvhhdo6pXw/yydwkaZ64Ox1ERM="
+          "Value": "sha256-GxhfhPZ+Q3RHf01DU5e/BlA+TrddOqB6VQ3Ki63MaI0="
         }
       ]
     },
@@ -9526,11 +9547,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pjy3AruKj1OMO4onbqtpFnfMQjY5iQSh4oi/LR0iGY0=\""
+          "Value": "\"20i8GyTVgM01tVt3FiV4+DIjR2qqG7PgYoYrHTycGCA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:47:04 GMT"
+          "Value": "Mon, 19 May 2025 15:04:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9540,18 +9561,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pjy3AruKj1OMO4onbqtpFnfMQjY5iQSh4oi/LR0iGY0="
+          "Value": "sha256-20i8GyTVgM01tVt3FiV4+DIjR2qqG7PgYoYrHTycGCA="
         }
       ]
     },
     {
       "Route": "_framework/Common.pdb",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\dqvtq714b6-u3xjlkpwbc.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\dqvtq714b6-7dwkk569pt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000133904660"
+          "Quality": "0.000133671969"
         }
       ],
       "ResponseHeaders": [
@@ -9561,11 +9582,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7467"
+          "Value": "7480"
         },
         {
           "Name": "ETag",
-          "Value": "\"XuRzLD6FNCqkzD8ZjGr7GI/nEGxk45PaZCbf7ZTgZ0s=\""
+          "Value": "\"YvXvjArQIiafC1o72I3+yniMgdrpvls5VqpMvMreLzY=\""
         },
         {
           "Name": "Last-Modified",
@@ -9589,19 +9610,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pjy3AruKj1OMO4onbqtpFnfMQjY5iQSh4oi/LR0iGY0=\""
+          "Value": "W/\"20i8GyTVgM01tVt3FiV4+DIjR2qqG7PgYoYrHTycGCA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pjy3AruKj1OMO4onbqtpFnfMQjY5iQSh4oi/LR0iGY0="
+          "Value": "sha256-20i8GyTVgM01tVt3FiV4+DIjR2qqG7PgYoYrHTycGCA="
         }
       ]
     },
     {
       "Route": "_framework/Common.pdb.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\dqvtq714b6-u3xjlkpwbc.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\dqvtq714b6-7dwkk569pt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9610,7 +9631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7467"
+          "Value": "7480"
         },
         {
           "Name": "Content-Type",
@@ -9618,7 +9639,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XuRzLD6FNCqkzD8ZjGr7GI/nEGxk45PaZCbf7ZTgZ0s=\""
+          "Value": "\"YvXvjArQIiafC1o72I3+yniMgdrpvls5VqpMvMreLzY=\""
         },
         {
           "Name": "Last-Modified",
@@ -9640,7 +9661,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XuRzLD6FNCqkzD8ZjGr7GI/nEGxk45PaZCbf7ZTgZ0s="
+          "Value": "sha256-YvXvjArQIiafC1o72I3+yniMgdrpvls5VqpMvMreLzY="
         }
       ]
     },
@@ -9663,11 +9684,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kVZ91B01SeK4HOgzjtZTVp6XaC/InETvpCLX7YtUMRA=\""
+          "Value": "\"o2EUNQdoKAHBXeLbGAFsB8w1+pDJludYGIxcXfiVqdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:47:04 GMT"
+          "Value": "Mon, 19 May 2025 15:04:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9677,18 +9698,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kVZ91B01SeK4HOgzjtZTVp6XaC/InETvpCLX7YtUMRA="
+          "Value": "sha256-o2EUNQdoKAHBXeLbGAFsB8w1+pDJludYGIxcXfiVqdU="
         }
       ]
     },
     {
       "Route": "_framework/Common.wasm",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\pw4hsfp5mg-btxpy0leda.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\pw4hsfp5mg-dkw6cqk1bq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000192789666"
+          "Quality": "0.000193798450"
         }
       ],
       "ResponseHeaders": [
@@ -9698,11 +9719,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5186"
+          "Value": "5159"
         },
         {
           "Name": "ETag",
-          "Value": "\"6xiRz18cB6DFhQ+waUk0tjtsVkvyqDlzhSRVu/jhMEs=\""
+          "Value": "\"lzz3dnvSIWS9ZwVpcr775fgsh1vSzLXSxggtE27rW0Q=\""
         },
         {
           "Name": "Last-Modified",
@@ -9726,19 +9747,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kVZ91B01SeK4HOgzjtZTVp6XaC/InETvpCLX7YtUMRA=\""
+          "Value": "W/\"o2EUNQdoKAHBXeLbGAFsB8w1+pDJludYGIxcXfiVqdU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kVZ91B01SeK4HOgzjtZTVp6XaC/InETvpCLX7YtUMRA="
+          "Value": "sha256-o2EUNQdoKAHBXeLbGAFsB8w1+pDJludYGIxcXfiVqdU="
         }
       ]
     },
     {
       "Route": "_framework/Common.wasm.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\pw4hsfp5mg-btxpy0leda.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\pw4hsfp5mg-dkw6cqk1bq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9747,7 +9768,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5186"
+          "Value": "5159"
         },
         {
           "Name": "Content-Type",
@@ -9755,7 +9776,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6xiRz18cB6DFhQ+waUk0tjtsVkvyqDlzhSRVu/jhMEs=\""
+          "Value": "\"lzz3dnvSIWS9ZwVpcr775fgsh1vSzLXSxggtE27rW0Q=\""
         },
         {
           "Name": "Last-Modified",
@@ -9777,7 +9798,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6xiRz18cB6DFhQ+waUk0tjtsVkvyqDlzhSRVu/jhMEs="
+          "Value": "sha256-lzz3dnvSIWS9ZwVpcr775fgsh1vSzLXSxggtE27rW0Q="
         }
       ]
     },
@@ -10759,11 +10780,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QD4ADLTAvn3R01klfhx8tvyScUKbVkm+6Sf9+5amhwk=\""
+          "Value": "\"cu87xV6+4srILbJfu7kqK5MmQPGkSLIxeFBwGONTFlE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:58 GMT"
+          "Value": "Mon, 19 May 2025 15:04:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10773,18 +10794,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QD4ADLTAvn3R01klfhx8tvyScUKbVkm+6Sf9+5amhwk="
+          "Value": "sha256-cu87xV6+4srILbJfu7kqK5MmQPGkSLIxeFBwGONTFlE="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.pdb",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\5bqrx98z3q-w0iqsaeg62.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\5bqrx98z3q-mapqu03sk8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000053853196"
+          "Quality": "0.000053850296"
         }
       ],
       "ResponseHeaders": [
@@ -10794,15 +10815,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18568"
+          "Value": "18569"
         },
         {
           "Name": "ETag",
-          "Value": "\"8ToJ1ycYJ9/bVK/XskwhJYkm8ges9rnuB36Ljvc094c=\""
+          "Value": "\"qq1ioLRhVxCHqmaffGYLroYmijiR+wKSU69UV3HTHNQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:16 GMT"
+          "Value": "Mon, 19 May 2025 14:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10822,19 +10843,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QD4ADLTAvn3R01klfhx8tvyScUKbVkm+6Sf9+5amhwk=\""
+          "Value": "W/\"cu87xV6+4srILbJfu7kqK5MmQPGkSLIxeFBwGONTFlE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QD4ADLTAvn3R01klfhx8tvyScUKbVkm+6Sf9+5amhwk="
+          "Value": "sha256-cu87xV6+4srILbJfu7kqK5MmQPGkSLIxeFBwGONTFlE="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.pdb.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\5bqrx98z3q-w0iqsaeg62.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\5bqrx98z3q-mapqu03sk8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10843,7 +10864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18568"
+          "Value": "18569"
         },
         {
           "Name": "Content-Type",
@@ -10851,11 +10872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ToJ1ycYJ9/bVK/XskwhJYkm8ges9rnuB36Ljvc094c=\""
+          "Value": "\"qq1ioLRhVxCHqmaffGYLroYmijiR+wKSU69UV3HTHNQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:16 GMT"
+          "Value": "Mon, 19 May 2025 14:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10873,7 +10894,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ToJ1ycYJ9/bVK/XskwhJYkm8ges9rnuB36Ljvc094c="
+          "Value": "sha256-qq1ioLRhVxCHqmaffGYLroYmijiR+wKSU69UV3HTHNQ="
         }
       ]
     },
@@ -10896,11 +10917,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KYUexn7MR3OPSHoYKj+BhlRXSPTxhBlXwMBD0SAdz0s=\""
+          "Value": "\"ss+n0+50KoBC+pAaOHX+ZMKqAg2MycCY8/TqojVhD8Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:58 GMT"
+          "Value": "Mon, 19 May 2025 15:04:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10910,18 +10931,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KYUexn7MR3OPSHoYKj+BhlRXSPTxhBlXwMBD0SAdz0s="
+          "Value": "sha256-ss+n0+50KoBC+pAaOHX+ZMKqAg2MycCY8/TqojVhD8Q="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.wasm",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\jy8mqa8cjl-bfze8ystt0.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\jy8mqa8cjl-iszackakko.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000100938730"
+          "Quality": "0.000101306858"
         }
       ],
       "ResponseHeaders": [
@@ -10931,15 +10952,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9906"
+          "Value": "9870"
         },
         {
           "Name": "ETag",
-          "Value": "\"Em9XsXATOIzsH+NAFz/vM6Jo7iEsDKowGaXvZIV3Ajo=\""
+          "Value": "\"bie7EMIvkDjLX2gOolViGAMI16uSzGn4nO0/FgrG+98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:16 GMT"
+          "Value": "Mon, 19 May 2025 14:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10959,19 +10980,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KYUexn7MR3OPSHoYKj+BhlRXSPTxhBlXwMBD0SAdz0s=\""
+          "Value": "W/\"ss+n0+50KoBC+pAaOHX+ZMKqAg2MycCY8/TqojVhD8Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KYUexn7MR3OPSHoYKj+BhlRXSPTxhBlXwMBD0SAdz0s="
+          "Value": "sha256-ss+n0+50KoBC+pAaOHX+ZMKqAg2MycCY8/TqojVhD8Q="
         }
       ]
     },
     {
       "Route": "_framework/FeManagement.wasm.gz",
-      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\jy8mqa8cjl-bfze8ystt0.gz",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\obj\\Debug\\net8.0\\compressed\\jy8mqa8cjl-iszackakko.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10980,7 +11001,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9906"
+          "Value": "9870"
         },
         {
           "Name": "Content-Type",
@@ -10988,11 +11009,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Em9XsXATOIzsH+NAFz/vM6Jo7iEsDKowGaXvZIV3Ajo=\""
+          "Value": "\"bie7EMIvkDjLX2gOolViGAMI16uSzGn4nO0/FgrG+98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 14:49:16 GMT"
+          "Value": "Mon, 19 May 2025 14:55:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11010,7 +11031,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Em9XsXATOIzsH+NAFz/vM6Jo7iEsDKowGaXvZIV3Ajo="
+          "Value": "sha256-bie7EMIvkDjLX2gOolViGAMI16uSzGn4nO0/FgrG+98="
         }
       ]
     },
@@ -38246,6 +38267,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "db/Statistics.0rwt6tt04r.json",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Statistics.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Iq3qPFwazb1eAQqk4uGhdpzLohWSoo6+6N1wyCdrvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 11:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0rwt6tt04r"
+        },
+        {
+          "Name": "label",
+          "Value": "db/Statistics.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Iq3qPFwazb1eAQqk4uGhdpzLohWSoo6+6N1wyCdrvw="
+        }
+      ]
+    },
+    {
+      "Route": "db/Statistics.json",
+      "AssetFile": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Statistics.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Iq3qPFwazb1eAQqk4uGhdpzLohWSoo6+6N1wyCdrvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 11:57:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Iq3qPFwazb1eAQqk4uGhdpzLohWSoo6+6N1wyCdrvw="
         }
       ]
     },

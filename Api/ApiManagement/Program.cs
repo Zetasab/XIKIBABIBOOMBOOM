@@ -1,6 +1,7 @@
 using ApiManagement.Components;
 using ApiManagement.Controller;
 using Common.DataBase;
+using Microsoft.AspNetCore.Components;
 using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,15 @@ builder.Services.AddMudServices();
 
 builder.Services.AddScoped<DataController>();
 builder.Services.AddSingleton(new JsonDbHandler());
+
+builder.Services.AddScoped<HttpClient>(sp =>
+{
+    var navigationManager = sp.GetRequiredService<NavigationManager>();
+    return new HttpClient
+    {
+        BaseAddress = new Uri(navigationManager.BaseUri)
+    };
+});
 
 var app = builder.Build();
 

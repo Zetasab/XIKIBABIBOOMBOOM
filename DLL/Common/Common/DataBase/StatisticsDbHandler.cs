@@ -62,17 +62,13 @@ namespace Common.DataBase
             ResponseController response = new ResponseController();
             try
             {
-                if (File.Exists(StatisticJsonUrl))
-                {
-                    string json = await http.GetFromJsonAsync<string>(StatisticJsonUrl);
+                
+                    var json = await http.GetStringAsync(StatisticJsonUrl);
                     var data = System.Text.Json.JsonSerializer.Deserialize<List<Statistics>>(json, JsonOptions);
                     response.Data = data;
                     response.Result = true;
-                }
-                else
-                {
-                    throw new Exception();
-                }
+                    
+                
             }
             catch (Exception ex)
             {

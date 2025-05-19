@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\wwwroot\\db\\Statistics.json",
+      "PackagePath": "staticwebassets\\db\\Statistics.json"
+    },
+    {
       "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\Api\\ApiManagement\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

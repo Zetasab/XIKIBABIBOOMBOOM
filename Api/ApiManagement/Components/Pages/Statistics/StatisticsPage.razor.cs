@@ -9,6 +9,7 @@ namespace ApiManagement.Components.Pages.Statistics
 {
     public partial class StatisticsPage
     {
+        [Inject] HttpClient http { get; set; }
         [Inject] JsonDbHandler Db { get; set; }
         [Inject] DataController DController { get; set; }
         public List<Models.Statistics> StatisticsList { get; set; } = new List<Models.Statistics>();
@@ -37,7 +38,8 @@ namespace ApiManagement.Components.Pages.Statistics
         #region Update
         private async Task UpdateList()
         {
-            var result = await Db.GetAllStatisticsAsync();
+            Db.SetStatisticJsonUrl("db/Statistics.json");
+            var result = await Db.HttpGetAllStatisticsAsync(http);
             if (result.Result)
             {
                 StatisticsList = result.Data;

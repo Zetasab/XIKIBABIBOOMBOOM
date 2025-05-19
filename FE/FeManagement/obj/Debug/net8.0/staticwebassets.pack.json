@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Statistics.json",
+      "PackagePath": "staticwebassets\\db\\Statistics.json"
+    },
+    {
       "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
