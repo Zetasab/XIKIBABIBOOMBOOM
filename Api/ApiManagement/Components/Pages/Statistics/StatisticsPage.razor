@@ -29,6 +29,13 @@
 @* datagrid *@
 <MudDataGrid Items="@StatisticsList" T="Common.DataModels.Statistics">
     <Columns>
+        <TemplateColumn Title="Status">
+            <CellTemplate>
+                <MudTooltip Text="@context.Item.Id">
+                    <MudIcon Icon="@Icons.Material.Filled.Info"></MudIcon>
+                </MudTooltip>
+            </CellTemplate>
+        </TemplateColumn>
         <PropertyColumn Property="x => x.Name" Title="Nombre" />
         <PropertyColumn Property="x => x.Description" Title="Descripcion" />
         <PropertyColumn Property="x => x.StartDate.ToShortDateString()" Title="Fecha de inicio" />
