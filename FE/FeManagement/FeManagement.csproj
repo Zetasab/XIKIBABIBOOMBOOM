@@ -16,4 +16,8 @@
     <Folder Include="Pages\Statistics\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\DLL\Common\Common\Common.csproj" />
+  </ItemGroup>
+
 </Project>

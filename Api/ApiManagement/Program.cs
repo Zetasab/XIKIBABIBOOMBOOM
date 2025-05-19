@@ -1,4 +1,5 @@
 using ApiManagement.Components;
+using ApiManagement.Controller;
 using Common.DataBase;
 using MudBlazor.Services;
 
@@ -9,6 +10,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddMudServices();
 
+builder.Services.AddScoped<DataController>();
 builder.Services.AddSingleton(new JsonDbHandler());
 
 var app = builder.Build();

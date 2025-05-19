@@ -9,15 +9,23 @@ namespace Common.DataBase
     {
         public string StatisticJsonUrl = Path.Combine("..", "..", "docs", "db", "Statistics.json");
 
-        #region Insert
-        public void Add(Statistics item)
+        public void SetStatisticJsonUrl(string url)
         {
-            var result = GetAllStatisticsAsync().Result;
+            StatisticJsonUrl = url;
+        }
+
+        #region Insert
+        public async Task<ResponseController> InsertStatistics(Statistics item)
+        {
+            ResponseController response = new ResponseController();
+            var result = await GetAllStatisticsAsync();
             if (result.Result) 
             {
                 (result.Data as List<Statistics>).Add(item);
                 SaveAll(result.Data);
+                response.Result = true;
             }
+            return response;
         }
         #endregion
 

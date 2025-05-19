@@ -1,4 +1,7 @@
 is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -34,6 +37,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Statistics/StatisticsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdGF0aXN0aWNzXFN0YXRpc3RpY3NQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Weather.razor]

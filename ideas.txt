@@ -5,3 +5,4 @@ carta escrita
 bton que se mueve etc
 puzzle de una foto random nuestra
 galeria de fotos
+juego de adivinar el bot

@@ -28,10 +28,10 @@ namespace Common.DataBase
 
         
 
-        //public bool fileExist()
-        //{
-        //    return File.Exists(JsonUrl);
-        //}
+        public bool fileExist(string url)
+        {
+            return File.Exists(url);
+        }
 
 
     }

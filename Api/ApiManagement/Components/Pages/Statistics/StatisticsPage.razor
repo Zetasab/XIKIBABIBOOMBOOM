@@ -1,24 +1,43 @@
 ﻿@page "/statistics"
+<div style="display:flex;justify-content:space-around">
+    <div></div>
+    <h3>Statistics</h3>
+    <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Add" Size="Size.Large" Color="Color.Primary" OnClick="@(() => InsertModal= true)"></MudIconButton>
+</div>
 
-<h3>Statistics</h3>
-
-<MudDialog @bind-Visible="InsertModal">
-    <DialogContent>
-        <MudForm Model="InsertStatistic">
-            <MudTextField @bind-Value="InsertStatistic.Name">
-
-            </MudTextField>
-            <MudButton ButtonType="ButtonType.Submit" >Aceptar</MudButton>
-        </MudForm>
+@* insert modal*@
+<MudDialog @bind-Visible="InsertModal" >
+    <DialogContent >
+        <EditForm Model="InsertStatistic" OnValidSubmit="OnInsertData">
+            <MudTextField @bind-Value="InsertStatistic.Name" Label="Nombre" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="InsertStatistic.Description" Label="Descripcion" Style="margin-top:25px;"></MudTextField>
+            <MudDatePicker @bind-Date ="_startdate" Label="Fecha de inicio" Style="margin-top:25px;" />
+            <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" >Aceptar</MudButton>
+            <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => InsertModal= false)">Cerrar</MudButton>
+        </EditForm>
     </DialogContent>
 </MudDialog>
+@* ------- *@
 
+
+@* edit modal *@
+@* ------- *@
+
+@* delete modal *@
+@* ------- *@
+
+@* datagrid *@
 <MudDataGrid Items="@StatisticsList" T="Common.DataModels.Statistics">
     <Columns>
         <PropertyColumn Property="x => x.Name" Title="Nombre" />
         <PropertyColumn Property="x => x.Description" Title="Descripcion" />
-        <PropertyColumn Property="x => x.StartDate" Title="Fecha de inicio" />
-        
+        <PropertyColumn Property="x => x.StartDate.ToShortDateString()" Title="Fecha de inicio" />
+        <TemplateColumn Title="Status">
+            <CellTemplate>
+                <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
+                <MudIconButton Variant="Variant.Filled" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>
+            </CellTemplate>
+        </TemplateColumn>
     </Columns>
 </MudDataGrid>
-
+@* ------- *@

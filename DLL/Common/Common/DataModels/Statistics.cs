@@ -13,7 +13,10 @@ namespace Common.DataModels
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
 
-        public Statistics() { }
+        public Statistics() 
+        {
+            Id = Guid.NewGuid().ToString();
+        }
 
         public Statistics(string name, string description, DateTime startDate)
         {
