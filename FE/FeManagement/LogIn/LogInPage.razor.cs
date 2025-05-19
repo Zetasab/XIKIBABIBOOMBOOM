@@ -20,7 +20,7 @@ namespace FeManagement.LogIn
             var result = await AuthService.IsLoggedInAsync();
             if (result)
             {
-                Navigation.NavigateTo("/home");
+                Navigation.NavigateTo("home");
             }
 
         }
@@ -30,7 +30,7 @@ namespace FeManagement.LogIn
             var success = await AuthService.LoginAsync(username, password);
             if (success)
             {
-                Navigation.NavigateTo("/home");
+                Navigation.NavigateTo("home");
             }
             else
             {
