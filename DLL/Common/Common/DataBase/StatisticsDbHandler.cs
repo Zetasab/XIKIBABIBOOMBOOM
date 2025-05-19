@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Net.Http.Json;
+using System.Text.Json;
 using Common.DataModels;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -48,6 +49,32 @@ namespace Common.DataBase
                 }
             }
             catch (Exception ex) 
+            {
+                response.Result = false;
+                response.Message = ex.Message;
+            }
+
+            return response;
+        }
+
+        public async Task<ResponseController> HttpGetAllStatisticsAsync(HttpClient http)
+        {
+            ResponseController response = new ResponseController();
+            try
+            {
+                if (File.Exists(StatisticJsonUrl))
+                {
+                    string json = await http.GetFromJsonAsync<string>(StatisticJsonUrl);
+                    var data = System.Text.Json.JsonSerializer.Deserialize<List<Statistics>>(json, JsonOptions);
+                    response.Data = data;
+                    response.Result = true;
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+            catch (Exception ex)
             {
                 response.Result = false;
                 response.Message = ex.Message;
