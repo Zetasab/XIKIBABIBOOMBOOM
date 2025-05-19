@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\bin\Release\net8.0\browser-wasm\publish\</_PublishTargetUrl>
-    <History>True|2025-05-19T12:37:47.4940964Z||;True|2025-05-19T14:18:42.5668511+02:00||;</History>
+    <History>True|2025-05-19T12:55:10.3284178Z||;False|2025-05-19T14:54:21.2210512+02:00||;False|2025-05-19T14:54:12.2790079+02:00||;False|2025-05-19T14:53:58.7783443+02:00||;True|2025-05-19T14:37:47.4940964+02:00||;True|2025-05-19T14:18:42.5668511+02:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
