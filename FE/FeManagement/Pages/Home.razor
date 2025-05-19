@@ -2,6 +2,8 @@
 
 @inject ISnackbar Snackbar
 
+@inject NavigationManager navigate
+
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
@@ -9,8 +11,12 @@
 Prueba
 
 <MudText>
+
 	JsonNNahdelr es @Db y existe: @Db.fileExist(Db.StatisticJsonUrl) por que esta en @Db.StatisticJsonUrl
 
+</MudText>
+<MudText>
+	aunque esta buscando en @navigate.BaseUri y deberia al final cuadrar en @(navigate.BaseUri + Db.StatisticJsonUrl)
 </MudText>
 
 @foreach (var item in StatisticsList)
