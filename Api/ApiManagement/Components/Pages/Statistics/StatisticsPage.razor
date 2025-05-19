@@ -7,6 +7,9 @@
 
 @* insert modal*@
 <MudDialog @bind-Visible="InsertModal" >
+    <TitleContent>
+        Insertar Estadistica
+    </TitleContent>
     <DialogContent >
         <EditForm Model="InsertStatistic" OnValidSubmit="OnInsertData">
             <MudTextField @bind-Value="InsertStatistic.Name" Label="Nombre" Style="margin-top:25px;"></MudTextField>
@@ -20,7 +23,21 @@
 @* ------- *@
 
 
-@* edit modal *@
+@* update modal *@
+<MudDialog @bind-Visible="UpdateModal">
+    <TitleContent>
+        Editar estadistica @SelectedStatistic.Id
+    </TitleContent>
+    <DialogContent>
+        <EditForm Model="SelectedStatistic" OnValidSubmit="OnUpdateData">
+            <MudTextField @bind-Value="SelectedStatistic.Name" Label="Nombre" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="SelectedStatistic.Description" Label="Descripcion" Style="margin-top:25px;"></MudTextField>
+            <MudDatePicker @bind-Date="_selecteddate" Label="Fecha de inicio" Style="margin-top:25px;" />
+            <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled">Aceptar</MudButton>
+            <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => UpdateModal = false)">Cerrar</MudButton>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
 @* ------- *@
 
 @* delete modal *@
@@ -41,7 +58,7 @@
         <PropertyColumn Property="x => x.StartDate.ToShortDateString()" Title="Fecha de inicio" />
         <TemplateColumn Title="Status">
             <CellTemplate>
-                <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
+                <MudIconButton Variant="Variant.Filled" OnClick="@(() => EditStatistic(context.Item))" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
                 <MudIconButton Variant="Variant.Filled" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>
             </CellTemplate>
         </TemplateColumn>

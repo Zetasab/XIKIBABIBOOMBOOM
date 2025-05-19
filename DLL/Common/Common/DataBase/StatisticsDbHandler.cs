@@ -62,13 +62,10 @@ namespace Common.DataBase
             ResponseController response = new ResponseController();
             try
             {
-                
-                    var json = await http.GetStringAsync(StatisticJsonUrl);
-                    var data = System.Text.Json.JsonSerializer.Deserialize<List<Statistics>>(json, JsonOptions);
-                    response.Data = data;
-                    response.Result = true;
-                    
-                
+                var json = await http.GetStringAsync(StatisticJsonUrl);
+                var data = System.Text.Json.JsonSerializer.Deserialize<List<Statistics>>(json, JsonOptions);
+                response.Data = data;
+                response.Result = true;   
             }
             catch (Exception ex)
             {
@@ -79,6 +76,62 @@ namespace Common.DataBase
             return response;
         }
         #endregion
+
+        #region Update
+        public async Task<ResponseController> UpdateStatistics(Statistics statistic)
+        {
+            ResponseController response = new ResponseController();
+            var result = await GetAllStatisticsAsync();
+            if (result.Result)
+            {
+
+                var list = (result.Data as List<Statistics>);
+                var index = list.FindIndex(s => s.Id == statistic.Id);
+
+                if (index != -1)
+                {
+                    list[index] = statistic;
+                    SaveAll(list);
+                    response.Result = true;
+                }
+                else
+                {
+                    response.Result = false;
+                    response.Message = "Elemento no encontrado";
+                }
+            }
+        return response;
+        }
+        #endregion
+
+        #region Delete
+        public async Task<ResponseController> DeleteStatistics(string id)
+        {
+            ResponseController response = new ResponseController();
+            var result = await GetAllStatisticsAsync();
+
+            if (result.Result)
+            {
+                var list = result.Data as List<Statistics>;
+                var itemToRemove = list.FirstOrDefault(s => s.Id == id);
+
+                if (itemToRemove != null)
+                {
+                    list.Remove(itemToRemove);
+                    SaveAll(list);
+                    response.Result = true;
+                }
+                else
+                {
+                    response.Result = false;
+                    response.Message = "Elemento no encontrado";
+                }
+            }
+
+            return response;
+        }
+        #endregion
+
 
         #region Save
         public void SaveAll(List<Statistics> data)

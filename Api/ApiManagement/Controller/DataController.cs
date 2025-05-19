@@ -24,5 +24,19 @@ namespace ApiManagement.Controller
                 return false;
             }
         }
+
+        public bool UpdateData(ResponseController response)
+        {
+            if (response.Result)
+            {
+                Snackbar.Add("Editado correctamente", Severity.Success);
+                return true;
+            }
+            else
+            {
+                Snackbar.Add(response.Message, Severity.Error);
+                return false;
+            }
+        }
     }
 }
