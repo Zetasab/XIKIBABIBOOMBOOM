@@ -1042,11 +1042,6 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vsi1uwwr2x-tptq2av103.gz
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\exhloj2lxi-lfu7j35m59.gz
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\wcev9fwujc-oyz0vx2fzb.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\pw4hsfp5mg-67euqyjzru.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\dqvtq714b6-0maqbbyt3j.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\jy8mqa8cjl-poanzu8m1h.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\5bqrx98z3q-mfgd6crrt8.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vrggntvhv9-oveqxvudb6.gz
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.build.json
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.development.json
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\staticwebassets.build.endpoints.json
@@ -1062,3 +1057,8 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\refint\FeManagement.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\FeManagement.pdb
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\ref\FeManagement.dll
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\pw4hsfp5mg-809n619qp9.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\dqvtq714b6-qz4sbiem0q.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\jy8mqa8cjl-okju42s604.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\5bqrx98z3q-nobai9gda0.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Release\net8.0\compressed\vrggntvhv9-xxwewd4ayv.gz
