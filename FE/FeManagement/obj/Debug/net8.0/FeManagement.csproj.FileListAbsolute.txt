@@ -1057,8 +1057,9 @@ F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\bin\Debug\net8.0\ww
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\bin\Debug\net8.0\Common.dll
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\bin\Debug\net8.0\Common.pdb
 F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\webcil\Common.wasm
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\pw4hsfp5mg-dkw6cqk1bq.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\dqvtq714b6-7dwkk569pt.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\jy8mqa8cjl-iszackakko.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\5bqrx98z3q-mapqu03sk8.gz
-F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\vrggntvhv9-dwqw2ilyiu.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\pw4hsfp5mg-9m7vf6dl6n.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\dqvtq714b6-rwtr9bxgxq.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\scopedcss\Layout\LogInLayout.razor.rz.scp.css
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\jy8mqa8cjl-ecpo8ww20x.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\5bqrx98z3q-s21cuiyx5s.gz
+F:\source\xikibaibiboomboom\XIKIBABIBOOMBOOM\FE\FeManagement\obj\Debug\net8.0\compressed\vrggntvhv9-jgetq9kf7z.gz

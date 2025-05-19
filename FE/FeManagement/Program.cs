@@ -1,6 +1,7 @@
 using Common.DataBase;
 using FeManagement;
 using FeManagement.DataController;
+using FeManagement.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
@@ -10,6 +11,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
 builder.Services.AddScoped<DataController>();
 builder.Services.AddSingleton(new JsonDbHandler());
+builder.Services.AddScoped<AuthService>();
 
 builder.Services.AddMudServices();
 builder.RootComponents.Add<App>("#app");

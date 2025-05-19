@@ -38,5 +38,19 @@ namespace ApiManagement.Controller
                 return false;
             }
         }
+
+        public bool DeleteData(ResponseController response)
+        {
+            if (response.Result)
+            {
+                Snackbar.Add("Borrado correctamente", Severity.Success);
+                return true;
+            }
+            else
+            {
+                Snackbar.Add(response.Message, Severity.Error);
+                return false;
+            }
+        }
     }
 }

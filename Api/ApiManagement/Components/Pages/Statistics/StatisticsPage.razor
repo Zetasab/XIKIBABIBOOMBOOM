@@ -41,6 +41,17 @@
 @* ------- *@
 
 @* delete modal *@
+<MudDialog @bind-Visible="DeleteModal">
+    <TitleContent>
+        Borrar @SelectedStatistic.Id
+    </TitleContent>
+    <DialogContent>
+        Seguro que quieres borrar la estadistica @SelectedStatistic.Name
+        <br />
+        <MudButton Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="OnDeleteData">Aceptar</MudButton>
+        <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => DeleteModal = false)">Cerrar</MudButton>
+    </DialogContent>
+</MudDialog>
 @* ------- *@
 
 @* datagrid *@
@@ -59,7 +70,7 @@
         <TemplateColumn Title="Status">
             <CellTemplate>
                 <MudIconButton Variant="Variant.Filled" OnClick="@(() => EditStatistic(context.Item))" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
-                <MudIconButton Variant="Variant.Filled" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>
+                <MudIconButton Variant="Variant.Filled" OnClick="@(() => DeleteStatistic(context.Item))" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>
             </CellTemplate>
         </TemplateColumn>
     </Columns>

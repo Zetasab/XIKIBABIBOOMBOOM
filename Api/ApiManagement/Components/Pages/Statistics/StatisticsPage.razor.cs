@@ -20,6 +20,7 @@ namespace ApiManagement.Components.Pages.Statistics
         //modals
         private bool InsertModal { get; set; } = false;
         private bool UpdateModal { get; set; } = false;
+        private bool DeleteModal { get; set; } = false;
         private Models.Statistics InsertStatistic { get; set; } = new Models.Statistics();
 
         protected override async Task OnInitializedAsync()
@@ -65,6 +66,21 @@ namespace ApiManagement.Components.Pages.Statistics
             await UpdateList();
             SelectedStatistic = new Models.Statistics();
             UpdateModal = false;
+        }
+        #endregion
+
+        #region Delete
+        private async Task DeleteStatistic(Models.Statistics statistic)
+        {
+            SelectedStatistic = JsonSerializer.Deserialize<Models.Statistics>(JsonSerializer.Serialize(statistic));
+            DeleteModal = true;
+        }
+        private async Task OnDeleteData()
+        {
+            _ = DController.DeleteData(await Db.DeleteStatistics(SelectedStatistic.Id));
+            await UpdateList();
+            SelectedStatistic = new Models.Statistics();
+            DeleteModal = false;
         }
         #endregion
     }
