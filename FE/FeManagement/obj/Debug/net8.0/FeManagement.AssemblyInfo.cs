@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FeManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+994cc667dae2831aa8cebc15615406db1d278755")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c43e87cfa7abd955ec8381d546fae19de4ff1fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("FeManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FeManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
