@@ -1,0 +1,80 @@
+﻿@page "/questions"
+<div style="display:flex;justify-content:space-around">
+    <div></div>
+    <h3>Statistics</h3>
+    <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Add" Size="Size.Large" Color="Color.Primary" OnClick="@(() => InsertModal= true)"></MudIconButton>
+</div>
+
+@* insert modal*@
+<MudDialog @bind-Visible="InsertModal"  Style="min-width:700px;min-height:400px">
+    <TitleContent>
+        Insertar Pregunta
+    </TitleContent>
+    <DialogContent >
+        <EditForm Model="InsertQuestion" OnValidSubmit="OnInsertData">
+            <MudTextField @bind-Value="InsertQuestion.PreTitle" Label="" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="InsertQuestion.Title" Label="" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="InsertQuestion.Answer" Placeholder="Escribe si quieres una respuesta concreta" Style="margin-top:25px;"></MudTextField>
+            
+            <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" >Aceptar</MudButton>
+            <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => InsertModal= false)">Cerrar</MudButton>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
+@* ------- *@
+
+
+@* update modal *@
+<MudDialog @bind-Visible="UpdateModal" Style="min-width:700px;min-height:400px">
+    <TitleContent>
+        Editar pregunta @SelectedQuestion.Id
+    </TitleContent>
+    <DialogContent>
+        <EditForm Model="SelectedQuestion" OnValidSubmit="OnUpdateData">
+            <MudTextField @bind-Value="SelectedQuestion.PreTitle" Label="" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="SelectedQuestion.Title" Label="" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="SelectedQuestion.Answer" Placeholder="Escribe si quieres una respuesta concreta" Style="margin-top:25px;"></MudTextField>
+            <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled">Aceptar</MudButton>
+            <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => UpdateModal = false)">Cerrar</MudButton>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
+@* ------- *@
+
+@* delete modal *@
+<MudDialog @bind-Visible="DeleteModal" Style="min-width:700px;min-height:400px">
+    <TitleContent>
+        Borrar @SelectedQuestion.Id
+    </TitleContent>
+    <DialogContent>
+        Seguro que quieres borrar la estadistica @SelectedQuestion.PreTitle @SelectedQuestion.Title
+        <br />
+        <MudButton Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="OnDeleteData">Aceptar</MudButton>
+        <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => DeleteModal = false)">Cerrar</MudButton>
+    </DialogContent>
+</MudDialog>
+@* ------- *@
+
+@* datagrid *@
+<MudDataGrid Items="@QuestionsList" T="Common.DataModels.Question">
+    <Columns>
+        <TemplateColumn Title="Id">
+            <CellTemplate>
+                <MudTooltip Text="@context.Item.Id">
+                    <MudIcon Icon="@Icons.Material.Filled.Info"></MudIcon>
+                </MudTooltip>
+            </CellTemplate>
+        </TemplateColumn>
+        <PropertyColumn Property="x => x.PreTitle" Title="Prefijo" />
+        <PropertyColumn Property="x => x.Title" Title="Rregunta " />
+        <PropertyColumn Property="x => x.Answer" Title="Respuesta" />
+        
+        <TemplateColumn >
+            <CellTemplate>
+                <MudIconButton Variant="Variant.Filled" OnClick="@(() => EditQuestion(context.Item))" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
+                <MudIconButton Variant="Variant.Filled" OnClick="@(() => DeleteQuestion(context.Item))" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>
+            </CellTemplate>
+        </TemplateColumn>
+    </Columns>
+</MudDataGrid>
+@* ------- *@

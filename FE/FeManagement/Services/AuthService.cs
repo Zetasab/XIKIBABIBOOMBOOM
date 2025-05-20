@@ -29,6 +29,7 @@ namespace FeManagement.Services
         public async Task LogoutAsync()
         {
             await _js.InvokeVoidAsync("localStorage.removeItem", TokenKey);
+            _navigation.NavigateTo("/");
         }
 
         public async Task<bool> IsLoggedInAsync()

@@ -6,15 +6,15 @@
 </div>
 
 @* insert modal*@
-<MudDialog @bind-Visible="InsertModal" >
+<MudDialog @bind-Visible="InsertModal" Style="min-width:700px;min-height:400px">
     <TitleContent>
         Insertar Estadistica
     </TitleContent>
     <DialogContent >
         <EditForm Model="InsertStatistic" OnValidSubmit="OnInsertData">
-            <MudTextField @bind-Value="InsertStatistic.Name" Label="Nombre" Style="margin-top:25px;"></MudTextField>
-            <MudTextField @bind-Value="InsertStatistic.Description" Label="Descripcion" Style="margin-top:25px;"></MudTextField>
-            <MudDatePicker @bind-Date ="_startdate" Label="Fecha de inicio" Style="margin-top:25px;" />
+            <MudTextField @bind-Value="InsertStatistic.Name" Label="Ha pasado x tiempo desde..." Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="InsertStatistic.Description" Label="Una Descripcion" Style="margin-top:25px;"></MudTextField>
+            <MudDatePicker @bind-Date="_startdate" Label="¿Cuando ocurrio?" Style="margin-top:25px;" />
             <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" >Aceptar</MudButton>
             <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => InsertModal= false)">Cerrar</MudButton>
         </EditForm>
@@ -24,15 +24,15 @@
 
 
 @* update modal *@
-<MudDialog @bind-Visible="UpdateModal">
+<MudDialog @bind-Visible="UpdateModal" Style="min-width:700px;min-height:400px">
     <TitleContent>
         Editar estadistica @SelectedStatistic.Id
     </TitleContent>
     <DialogContent>
         <EditForm Model="SelectedStatistic" OnValidSubmit="OnUpdateData">
-            <MudTextField @bind-Value="SelectedStatistic.Name" Label="Nombre" Style="margin-top:25px;"></MudTextField>
-            <MudTextField @bind-Value="SelectedStatistic.Description" Label="Descripcion" Style="margin-top:25px;"></MudTextField>
-            <MudDatePicker @bind-Date="_selecteddate" Label="Fecha de inicio" Style="margin-top:25px;" />
+            <MudTextField @bind-Value="SelectedStatistic.Name" Label="Ha pasado x tiempo desde..." Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="SelectedStatistic.Description" Label="Una Descripcion" Style="margin-top:25px;"></MudTextField>
+            <MudDatePicker @bind-Date="_selecteddate" Label="¿Cuando ocurrio?" Style="margin-top:25px;" />
             <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled">Aceptar</MudButton>
             <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => UpdateModal = false)">Cerrar</MudButton>
         </EditForm>
@@ -41,7 +41,7 @@
 @* ------- *@
 
 @* delete modal *@
-<MudDialog @bind-Visible="DeleteModal">
+<MudDialog @bind-Visible="DeleteModal" Style="min-width:700px;min-height:400px">
     <TitleContent>
         Borrar @SelectedStatistic.Id
     </TitleContent>
@@ -57,17 +57,17 @@
 @* datagrid *@
 <MudDataGrid Items="@StatisticsList" T="Common.DataModels.Statistics">
     <Columns>
-        <TemplateColumn Title="Status">
+        <TemplateColumn Title="Id">
             <CellTemplate>
                 <MudTooltip Text="@context.Item.Id">
                     <MudIcon Icon="@Icons.Material.Filled.Info"></MudIcon>
                 </MudTooltip>
             </CellTemplate>
         </TemplateColumn>
-        <PropertyColumn Property="x => x.Name" Title="Nombre" />
-        <PropertyColumn Property="x => x.Description" Title="Descripcion" />
-        <PropertyColumn Property="x => x.StartDate.ToShortDateString()" Title="Fecha de inicio" />
-        <TemplateColumn Title="Status">
+        <PropertyColumn Property="x => x.Name" Title="Ha pasado x tiempo desde..." />
+        <PropertyColumn Property="x => x.Description" Title="Una Descripcion" />
+        <PropertyColumn Property="x => x.StartDate.ToShortDateString()" Title="¿Cuando ocurrio?" />
+        <TemplateColumn >
             <CellTemplate>
                 <MudIconButton Variant="Variant.Filled" OnClick="@(() => EditStatistic(context.Item))" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
                 <MudIconButton Variant="Variant.Filled" OnClick="@(() => DeleteStatistic(context.Item))" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>

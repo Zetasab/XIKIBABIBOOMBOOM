@@ -23,7 +23,7 @@ namespace Common.DataBase
             if (result.Result) 
             {
                 (result.Data as List<Statistics>).Add(item);
-                SaveAll(result.Data);
+                SaveAllStatistics(result.Data);
                 response.Result = true;
             }
             return response;
@@ -91,7 +91,7 @@ namespace Common.DataBase
                 if (index != -1)
                 {
                     list[index] = statistic;
-                    SaveAll(list);
+                    SaveAllStatistics(list);
                     response.Result = true;
                 }
                 else
@@ -118,7 +118,7 @@ namespace Common.DataBase
                 if (itemToRemove != null)
                 {
                     list.Remove(itemToRemove);
-                    SaveAll(list);
+                    SaveAllStatistics(list);
                     response.Result = true;
                 }
                 else
@@ -134,7 +134,7 @@ namespace Common.DataBase
 
 
         #region Save
-        public void SaveAll(List<Statistics> data)
+        public void SaveAllStatistics(List<Statistics> data)
         {
             string json = JsonSerializer.Serialize(data, JsonOptions);
             File.WriteAllText(StatisticJsonUrl, json);

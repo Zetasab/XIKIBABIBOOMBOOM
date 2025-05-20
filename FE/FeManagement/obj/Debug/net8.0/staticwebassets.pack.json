@@ -9,6 +9,50 @@
       "PackagePath": "staticwebassets\\FeManagement.styles.css"
     },
     {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\LoginBg.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\LoginBg.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg1.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg1.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg10.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg10.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg2.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg2.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg3.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg3.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg4.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg4.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg5.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg5.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg6.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg6.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg7.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg7.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg8.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg8.jpg"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\Img\\bg\\bg9.jpg",
+      "PackagePath": "staticwebassets\\Img\\bg\\bg9.jpg"
+    },
+    {
       "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
@@ -19,6 +63,10 @@
     {
       "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Questions.json",
+      "PackagePath": "staticwebassets\\db\\Questions.json"
     },
     {
       "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Statistics.json",

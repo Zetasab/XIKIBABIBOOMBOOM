@@ -4,22 +4,36 @@
 
 @inject NavigationManager navigate
 
-<PageTitle>Home</PageTitle>
+@implements IDisposable
 
-<h1>Hello, world!</h1>
+<PageTitle>Inicio</PageTitle>
 
-Prueba
+<MudGrid>
+	@foreach (var item in StatisticsList)
+	{
+		<MudItem xs="12" sm="6">
+			<MudPaper Elevation="2" Style="display:flex;align-items:center;justify-content:center;min-height:250px;flex-direction:column;padding:24px">
+				<MudText style="font-size:18px">
+					Ha pasado
+				</MudText>
+				<br />
+				<MudText style="font-size:25px;font-weight:bold;">
+					@TiempoTranscurrido(item.StartDate)
+				</MudText>
+				<br />
 
-<MudText>
+				<MudText Style="font-size:19px">
+					desde @item.Name
+				</MudText>
+				<br />
+				<MudText style="font-size:18px">
+					que fue el dia @item.StartDate.ToShortDateString()
+				</MudText>
+			</MudPaper>
+		</MudItem>
+	
 
-	JsonNNahdelr es @Db y existe: @Db.fileExist(Db.StatisticJsonUrl) por que esta en @Db.StatisticJsonUrl
-
-</MudText>
-<MudText>
-	aunque esta buscando en @navigate.BaseUri y deberia al final cuadrar en @(navigate.BaseUri + Db.StatisticJsonUrl)
-</MudText>
-
-@foreach (var item in StatisticsList)
-{
-	<MudText>@item.Name con id @item.Id el dia @item.StartDate</MudText>
-}
+		@* 
+		<MudText>@item.Name con id @item.Id el dia @item.StartDate</MudText> *@
+	}
+</MudGrid>

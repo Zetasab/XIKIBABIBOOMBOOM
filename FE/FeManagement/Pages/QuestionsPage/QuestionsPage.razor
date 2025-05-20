@@ -1,0 +1,30 @@
+﻿@page "/questions"
+
+<PageTitle>Preguntas</PageTitle>
+
+<h3>Si te preguntas si...</h3>
+
+<MudGrid Class="py-4">
+	@foreach(var item in QuestionsList)
+	{
+		<MudItem xs="12">
+			<MudPaper Elevation="2" Style="padding:40px">
+				<MudText Style="font-size:20px">
+					¿@item.PreTitle @item.Title?
+
+				</MudText>
+				<br />
+				<MudText Style="font-size:19px;margin-left:5px;">
+					@if (!string.IsNullOrEmpty(item.Answer))
+					{
+						<text>@item.Answer</text>
+					}
+					else
+					{
+						<text>-@GetRandomAnswer() @item.PreTitle.ToLower() @item.Title</text>
+					}
+				</MudText>
+			</MudPaper>
+		</MudItem>
+	}
+</MudGrid>

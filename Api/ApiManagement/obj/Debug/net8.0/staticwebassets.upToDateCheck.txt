@@ -1,4 +1,3 @@
 wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
-wwwroot\db\Statistics.json
 wwwroot\favicon.png

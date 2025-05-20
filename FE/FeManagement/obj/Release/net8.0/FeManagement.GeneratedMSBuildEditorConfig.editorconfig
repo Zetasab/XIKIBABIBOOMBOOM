@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90Rm91bmRQYWdlXE5vdEZvdW5kUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/FE/FeManagement/Pages/QuestionsPage/QuestionsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25zUGFnZVxRdWVzdGlvbnNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/FE/FeManagement/Pages/StatisticsPage/HomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljc1BhZ2VcSG9tZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
