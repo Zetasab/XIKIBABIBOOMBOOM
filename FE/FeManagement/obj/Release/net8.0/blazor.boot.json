@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FeManagement",
   "resources": {
-    "hash": "sha256-KX625qR+9lcDW+Y+ET1ZNwvfhAHWF/J8TNqnNyh7G8g=",
+    "hash": "sha256-HpOkLfdafGMpog+q+mvvs1HXC3zyWz1jIEM/VC60jvk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -213,11 +213,11 @@
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
       "Common.wasm": "sha256-sOmhXlo6TM8voXL3QXB4TIGEUPoFqJnXvdK9c7KOMdQ=",
-      "FeManagement.wasm": "sha256-+M4OYS06ci/+X4orYvVQg+FmxmHsAwmaqejNBw6oUds="
+      "FeManagement.wasm": "sha256-Fo9M3zHfip7meXbtoXzErs+cZba+D+cg5hbWXKW8nJg="
     },
     "pdb": {
       "Common.pdb": "sha256-l3mzOIciqc+EsV0KbN7JwKWLhWqzkOvOlZ8sDM+Vy04=",
-      "FeManagement.pdb": "sha256-ikY42OitHTPBZN0glbsVhwC+ctbXbvDiOlvqEZZOyYI="
+      "FeManagement.pdb": "sha256-UV5o9nLJrGB8H5vOX7eO1SEBXUPAtadsMHM/tafkfFI="
     }
   },
   "cacheBootResources": true,

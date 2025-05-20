@@ -11,8 +11,8 @@
             <MudContainer Class="form-section">
                 <MudText Typo="Typo.h4" Class="mb-4">Iniciar sesión</MudText>
 
-                <MudTextField Label="Usuario" @bind-Value="username" FullWidth="true" />
-                <MudTextField Label="Contraseña" InputType="InputType.Password" @bind-Value="password" FullWidth="true" Class="mt-2" />
+                <MudTextField Label="Usuario" @bind-Value="username" FullWidth="true" Style="color:white" />
+                <MudTextField Label="Contraseña" InputType="InputType.Password" @bind-Value="password" FullWidth="true" Class="mt-2" Style="color:white" />
 
                 @if (loginFailed)
                 {
@@ -35,7 +35,7 @@
 
 <style>
     .loginBackground{
-        background-image:url('/Img/bg/LoginBg.jpg');
+        background-image:url('Img/bg/LoginBg.jpg');
         background-size: cover;
         filter: brightness(0.7);
         height: 100%;

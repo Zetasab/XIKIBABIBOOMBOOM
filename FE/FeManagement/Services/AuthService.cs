@@ -29,7 +29,7 @@ namespace FeManagement.Services
         public async Task LogoutAsync()
         {
             await _js.InvokeVoidAsync("localStorage.removeItem", TokenKey);
-            _navigation.NavigateTo("/");
+            _navigation.NavigateTo("");
         }
 
         public async Task<bool> IsLoggedInAsync()
@@ -43,7 +43,7 @@ namespace FeManagement.Services
             var result = await IsLoggedInAsync();
             if (!result)
             {
-                _navigation.NavigateTo("/");
+                _navigation.NavigateTo("");
             }
         }
     }
