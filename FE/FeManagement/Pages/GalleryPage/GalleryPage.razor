@@ -1,0 +1,23 @@
+﻿@page "/gallery"
+
+<PageTitle>Preguntas</PageTitle>
+
+<h3>Galería de Imagenes.</h3>
+
+<div id="galeria" class="pswp-gallery">
+    @foreach (var img in MemorysList)
+    {
+        <a href="@img.Url" data-pswp-auto>
+            <img src="@img.Url" width="200" class="m-2 rounded shadow" />
+        </a>
+    }
+</div>
+
+
+<style>
+    
+</style>
+
+
+
+

@@ -1,0 +1,88 @@
+﻿@page "/gallery"
+
+@* <PageTitle>Galería - XikibeibyBoomBoom</PageTitle> *@
+
+<div style="display:flex;justify-content:space-around">
+    <div></div>
+    <h3>Galería</h3>
+    <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Add" Size="Size.Large" Color="Color.Primary" OnClick="@(() => InsertModal= true)"></MudIconButton>
+</div>
+
+@* insert modal*@
+<MudDialog @bind-Visible="InsertModal"  Style="min-width:700px;min-height:400px">
+    <TitleContent>
+        Insertar Pregunta
+    </TitleContent>
+    <DialogContent >
+        <EditForm Model="InsertMemory" OnValidSubmit="OnInsertData">
+            <MudTextField @bind-Value="InsertMemory.Description" Label="Descripcion" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="InsertMemory.Url" Label="Url" Style="margin-top:25px;"></MudTextField>
+            <MudDatePicker @bind-Date="_insertDate" Label="Fecha"></MudDatePicker>
+
+            <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" >Aceptar</MudButton>
+            <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => InsertModal= false)">Cerrar</MudButton>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
+@* ------- *@
+
+
+@* update modal *@
+<MudDialog @bind-Visible="UpdateModal" Style="min-width:700px;min-height:400px">
+    <TitleContent>
+        Editar pregunta @SelectedMemory.Id
+    </TitleContent>
+    <DialogContent>
+        <EditForm Model="SelectedMemory" OnValidSubmit="OnUpdateData">
+            <MudTextField @bind-Value="SelectedMemory.Description" Label="Descripcion" Style="margin-top:25px;"></MudTextField>
+            <MudTextField @bind-Value="SelectedMemory.Url" Label="Url" Style="margin-top:25px;"></MudTextField>
+            <MudDatePicker @bind-Date="_updateDate" Label="Fecha"></MudDatePicker>
+
+            <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled">Aceptar</MudButton>
+            <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => UpdateModal = false)">Cerrar</MudButton>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
+@* ------- *@
+
+@* delete modal *@
+<MudDialog @bind-Visible="DeleteModal" Style="min-width:700px;min-height:400px">
+    <TitleContent>
+        Borrar @SelectedMemory.Id
+    </TitleContent>
+    <DialogContent>
+        Seguro que quieres borrar la imagen @SelectedMemory.Id @SelectedMemory.Description
+        <br />
+        <MudButton Color="Color.Primary" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="OnDeleteData">Aceptar</MudButton>
+        <MudButton Color="Color.Error" Style="margin-top:25px;" Variant="Variant.Filled" OnClick="@(() => DeleteModal = false)">Cerrar</MudButton>
+    </DialogContent>
+</MudDialog>
+@* ------- *@
+
+@* datagrid *@
+<MudDataGrid Items="@MemorysList" T="Common.DataModels.Memory">
+    <Columns>
+        <TemplateColumn Title="Id">
+            <CellTemplate>
+                <MudTooltip Text="@context.Item.Id">
+                    <MudIcon Icon="@Icons.Material.Filled.Info"></MudIcon>
+                </MudTooltip>
+            </CellTemplate>
+        </TemplateColumn>
+        <TemplateColumn Title="Imagen">
+            <CellTemplate>
+               <MudImage Src="@context.Item.Url" Style="max-width:200px;max-height:200;object-fit:contain"></MudImage>
+            </CellTemplate>
+        </TemplateColumn>
+        <PropertyColumn Property="x => x.Description" Title="Descripcion" />
+        <PropertyColumn Property="x => x.Date.ToShortDateString()" Title="Fecha " />
+        
+        <TemplateColumn >
+            <CellTemplate>
+                <MudIconButton Variant="Variant.Filled" OnClick="@(() => EditMemory(context.Item))" Icon="@Icons.Material.Filled.Edit"></MudIconButton>
+                <MudIconButton Variant="Variant.Filled" OnClick="@(() => DeleteMemory(context.Item))" Color="Color.Error" Icon="@Icons.Material.Filled.Delete"></MudIconButton>
+            </CellTemplate>
+        </TemplateColumn>
+    </Columns>
+</MudDataGrid>
+@* ------- *@

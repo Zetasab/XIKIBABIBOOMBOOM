@@ -10,22 +10,17 @@ namespace Common.DataBase
 {
     public partial class JsonDbHandler
     {
-        public string QuestionJsonUrl = Path.Combine("..", "..", "docs", "db", "Questions.json");
-
-        public void SetQuestionJsonUrl(string url)
-        {
-            QuestionJsonUrl = url;
-        }
+        public string MemoryJsonUrl = Path.Combine("..", "..", "docs", "db", "Memories.json");
 
         #region Insert
-        public async Task<ResponseController> InsertQuestions(Question item)
+        public async Task<ResponseController> InsertMemorys(Memory item)
         {
             ResponseController response = new ResponseController();
-            var result = await GetAllQuestionsAsync();
+            var result = await GetAllMemorysAsync();
             if (result.Result)
             {
-                (result.Data as List<Question>).Add(item);
-                SaveAllQuestions(result.Data);
+                (result.Data as List<Memory>).Add(item);
+                SaveAllMemorys(result.Data);
                 response.Result = true;
             }
             return response;
@@ -33,15 +28,15 @@ namespace Common.DataBase
         #endregion
 
         #region Get
-        public async Task<ResponseController> GetAllQuestionsAsync()
+        public async Task<ResponseController> GetAllMemorysAsync()
         {
             ResponseController response = new ResponseController();
             try
             {
-                if (File.Exists(QuestionJsonUrl))
+                if (File.Exists(MemoryJsonUrl))
                 {
-                    var json = await File.ReadAllTextAsync(QuestionJsonUrl);
-                    var data = System.Text.Json.JsonSerializer.Deserialize<List<Question>>(json, JsonOptions);
+                    var json = await File.ReadAllTextAsync(MemoryJsonUrl);
+                    var data = System.Text.Json.JsonSerializer.Deserialize<List<Memory>>(json, JsonOptions);
                     response.Data = data;
                     response.Result = true;
                 }
@@ -59,13 +54,13 @@ namespace Common.DataBase
             return response;
         }
 
-        public async Task<ResponseController> HttpGetAllQuestionsAsync(HttpClient http, string url = "db/Questions.json")
+        public async Task<ResponseController> HttpGetAllMemorysAsync(HttpClient http, string url = "db/Memories.json")
         {
             ResponseController response = new ResponseController();
             try
             {
                 var json = await http.GetStringAsync(url);
-                var data = System.Text.Json.JsonSerializer.Deserialize<List<Question>>(json, JsonOptions);
+                var data = System.Text.Json.JsonSerializer.Deserialize<List<Memory>>(json, JsonOptions);
                 response.Data = data;
                 response.Result = true;
             }
@@ -80,20 +75,20 @@ namespace Common.DataBase
         #endregion
 
         #region Update
-        public async Task<ResponseController> UpdateQuestions(Question item)
+        public async Task<ResponseController> UpdateMemorys(Memory item)
         {
             ResponseController response = new ResponseController();
-            var result = await GetAllQuestionsAsync();
+            var result = await GetAllMemorysAsync();
             if (result.Result)
             {
 
-                var list = (result.Data as List<Question>);
+                var list = (result.Data as List<Memory>);
                 var index = list.FindIndex(s => s.Id == item.Id);
 
                 if (index != -1)
                 {
                     list[index] = item;
-                    SaveAllQuestions(list);
+                    SaveAllMemorys(list);
                     response.Result = true;
                 }
                 else
@@ -107,20 +102,20 @@ namespace Common.DataBase
         #endregion
 
         #region Delete
-        public async Task<ResponseController> DeleteQuestions(string id)
+        public async Task<ResponseController> DeleteMemorys(string id)
         {
             ResponseController response = new ResponseController();
-            var result = await GetAllQuestionsAsync();
+            var result = await GetAllMemorysAsync();
 
             if (result.Result)
             {
-                var list = result.Data as List<Question>;
+                var list = result.Data as List<Memory>;
                 var itemToRemove = list.FirstOrDefault(s => s.Id == id);
 
                 if (itemToRemove != null)
                 {
                     list.Remove(itemToRemove);
-                    SaveAllQuestions(list);
+                    SaveAllMemorys(list);
                     response.Result = true;
                 }
                 else
@@ -136,10 +131,10 @@ namespace Common.DataBase
 
 
         #region Save
-        public void SaveAllQuestions(List<Question> data)
+        public void SaveAllMemorys(List<Memory> data)
         {
             string json = JsonSerializer.Serialize(data, JsonOptions);
-            File.WriteAllText(QuestionJsonUrl, json);
+            File.WriteAllText(MemoryJsonUrl, json);
         }
         #endregion
     }

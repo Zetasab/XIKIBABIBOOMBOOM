@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Memories.json",
+      "PackagePath": "staticwebassets\\db\\Memories.json"
+    },
+    {
       "Id": "F:\\source\\xikibaibiboomboom\\XIKIBABIBOOMBOOM\\FE\\FeManagement\\wwwroot\\db\\Questions.json",
       "PackagePath": "staticwebassets\\db\\Questions.json"
     },

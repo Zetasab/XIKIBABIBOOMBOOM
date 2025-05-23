@@ -1,6 +1,7 @@
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\db\Memories.json
 wwwroot\db\Questions.json
 wwwroot\db\Statistics.json
 wwwroot\favicon.png

@@ -12,6 +12,8 @@
     <link href="FeManagement.styles.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/photoswipe.css" />
+
 </head>
 
 <body>
@@ -30,6 +32,23 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/umd/photoswipe.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/photoswipe@5.3.8/dist/umd/photoswipe-lightbox.umd.min.js"></script>
+    <!--<script type="module" src="js/gallery.js"></script>-->
+    <!-- BODY -->
+    <script type="module">
+
+        window.initGallery = () => {
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: '#galeria',
+                children: 'a',
+                
+                pswpModule: PhotoSwipe
+            });
+            lightbox.init();
+        };
+
+    </script>
 </body>
 
 </html>

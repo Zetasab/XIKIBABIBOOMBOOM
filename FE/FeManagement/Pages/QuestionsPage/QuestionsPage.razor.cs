@@ -14,8 +14,6 @@ namespace FeManagement.Pages.QuestionsPage
         
         protected override async Task OnInitializedAsync()
         {
-            Db.SetQuestionJsonUrl("db/Questions.json");
-
             var response = await Db.HttpGetAllQuestionsAsync(http);
             QuestionsList = response.Data ?? new List<Question>();
 

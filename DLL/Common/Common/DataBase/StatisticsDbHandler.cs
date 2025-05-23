@@ -1,4 +1,5 @@
-﻿using System.Net.Http.Json;
+﻿using System;
+using System.Net.Http.Json;
 using System.Text.Json;
 using Common.DataModels;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -57,12 +58,12 @@ namespace Common.DataBase
             return response;
         }
 
-        public async Task<ResponseController> HttpGetAllStatisticsAsync(HttpClient http)
+        public async Task<ResponseController> HttpGetAllStatisticsAsync(HttpClient http, string url = "db/Statistics.json")
         {
             ResponseController response = new ResponseController();
             try
             {
-                var json = await http.GetStringAsync(StatisticJsonUrl);
+                var json = await http.GetStringAsync(url);
                 var data = System.Text.Json.JsonSerializer.Deserialize<List<Statistics>>(json, JsonOptions);
                 response.Data = data;
                 response.Result = true;   

@@ -15,7 +15,6 @@ namespace FeManagement.DataController
         {
             if (response.Result)
             {
-                Snackbar.Add("Insertado correctamente", Severity.Success);
                 return true;
             }
             else

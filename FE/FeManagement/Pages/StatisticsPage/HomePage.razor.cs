@@ -15,8 +15,6 @@ namespace FeManagement.Pages.StatisticsPage
         private System.Timers.Timer _timer;
         protected override async Task OnInitializedAsync()
         {
-            Db.SetStatisticJsonUrl("db/Statistics.json");
-
             var response = await Db.HttpGetAllStatisticsAsync(http);
             StatisticsList = response.Data ?? new List<Statistics>();
 

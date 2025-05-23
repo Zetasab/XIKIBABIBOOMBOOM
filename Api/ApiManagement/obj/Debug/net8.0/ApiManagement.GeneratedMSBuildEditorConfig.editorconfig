@@ -27,12 +27,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Gallery/GallerysPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHYWxsZXJ5XEdhbGxlcnlzUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/source/xikibaibiboomboom/XIKIBABIBOOMBOOM/Api/ApiManagement/Components/Pages/Home.razor]
